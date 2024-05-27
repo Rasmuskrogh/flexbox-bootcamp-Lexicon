@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+header {
+  height: 3rem;
+  background-color: #eeeeee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+img {
+  height: 50%;
+  margin-left: 1rem;
+}
+
+ul {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  padding: 0;
+}
+
+li {
+  padding: 1rem;
+  align-self: center;
+  list-style: none;
+}
+
+li:hover {
+  background-color: #666666;
+  color: white;
+}
+
+button {
+  margin-right: 1rem;
+  padding: 0.2rem 0.5rem;
+}

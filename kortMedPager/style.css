@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background-color: lightgrey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  background-color: white;
+  height: 20rem;
+  width: 14rem;
+  margin-top: 15rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+a {
+  width: 0.4rem;
+  height: 0.38rem;
+  background-color: grey;
+  margin: 0.3rem;
+  border-radius: 100%;
+  align-self: center;
+}
+
+.active {
+  background-color: black;
+}
+
+.text {
+  padding: 0 1.5rem;
+  font-style: italic;
+  flex: 12;
+  display: flex;
+  align-items: flex-end;
+  font-size: 14px;
+}
+
+.author {
+  flex: 8;
+  padding-top: 0.8rem;
+  color: grey;
+  font-size: 13px;
+}
+
+.navigation-dots {
+  flex: 2;
+  display: flex;
+}
